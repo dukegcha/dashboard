@@ -6,11 +6,11 @@ This Power BI dashboard provides comprehensive analytics for warehouse operation
 ## Dashboard Screenshots
 
 ### Main Dashboard View (2025 Data)
-![Dashboard 2025](image1.png)
+![Dashboard 2025](image2.png)
 *Key metrics display including quantity x manpower, volume x manpower, average manpower, and workday statistics with trend analysis*
 
 ### Historical Analysis View
-![Dashboard Historical](image2.png)
+![Dashboard Historical](image1.png)
 *Historical data comparison showing productivity trends, DO counts, and year-over-year performance metrics*
 
 ## Data Architecture
@@ -122,56 +122,4 @@ SUMX(
 - **Dynamic titles**: Context-aware headers that update based on selections
 - **Responsive design**: Adapts to different screen sizes and orientations
 
-## Performance Optimizations
 
-### Data Model Optimizations
-- **Star Schema**: Optimized for analytical queries
-- **Calculated Columns**: Pre-computed for faster rendering
-- **Relationships**: Properly defined to minimize cross-filtering overhead
-
-### DAX Optimizations
-- **Variables**: Used to reduce redundant calculations
-- **Context Transitions**: Optimized SUMX and other iterator functions
-- **Measure Dependencies**: Structured to reuse calculations efficiently
-
-## Maintenance and Updates
-
-### Data Refresh Schedule
-- **Automated Refresh**: Configured for regular data updates from Snowflake
-- **Incremental Refresh**: Implemented for large historical datasets
-- **Error Handling**: Built-in error checking for data quality issues
-
-### Version Control
-- **Power BI Service**: Deployed for enterprise sharing
-- **Backup Strategy**: Regular exports of PBIX files
-- **Documentation Updates**: README maintained with each significant change
-
-## Usage Guidelines
-
-### Navigation
-1. Use the warehouse filter buttons at the top to focus on specific locations
-2. Select time periods using the month/year navigation on the left
-3. Hover over visuals for detailed tooltips
-4. Click on chart elements to cross-filter the entire dashboard
-
-### Interpreting Metrics
-- **Productivity Score**: Higher values indicate better efficiency
-- **Bulky Percentage**: Shows proportion of bulky item processing
-- **Trend Analysis**: Green indicates positive trends, red indicates areas needing attention
-
-## Technical Requirements
-
-### Software Versions
-- Power BI Desktop (Latest version recommended)
-- Python 3.8+ (for data transformation scripts)
-- Excel 2016+ (for initial data preparation)
-
-### Data Connections
-- Snowflake ODBC Driver
-- Appropriate database permissions for source tables
-- Network connectivity to data warehouse
-
----
-
-*Last Updated: [Current Date]*  
-*Maintained by: [Your Team Name]*
