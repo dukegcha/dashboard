@@ -23,7 +23,7 @@ This Power BI dashboard provides comprehensive analytics for warehouse operation
 ### Data Flow Process
 1. **Extraction**: Raw data extracted from Snowflake using SQL queries
 2. **Transformation**: Data cleansing and preparation using:
-   - Excel for initial data manipulation
+   - Excel VBA for initial data manipulation
    - Python scripts for advanced transformations
 3. **Loading**: Processed data imported into Power BI for visualization
 
