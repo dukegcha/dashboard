@@ -16,15 +16,15 @@ This Power BI dashboard provides comprehensive analytics for warehouse operation
 ## Data Architecture
 
 ### Data Sources
-- **Primary Source**: Snowflake Data Warehouse
+- **Primary Source**: Snowflake Data Warehouse, SAP
 - **ETL Process**: Excel and Python for data extraction and transformation
 - **Visualization**: Power BI Desktop
 
 ### Data Flow Process
-1. **Extraction**: Raw data extracted from Snowflake using SQL queries
-2. **Transformation**: Data cleansing and preparation using:
+1. **Extraction**: Raw data from SAP, Data cleansing and preparation using:
    - Excel VBA for initial data manipulation
    - Python scripts for advanced transformations
+2. **Transformation**: Data transformation using Snowflake view
 3. **Loading**: Processed data imported into Power BI for visualization
 
 ## Data Model Structure
