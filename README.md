@@ -5,7 +5,7 @@ This Power BI dashboard provides comprehensive analytics for warehouse operation
 
 ## Dashboard Screenshots
 
-### Main Dashboard View (2025 Data)
+### Main Dashboard View 
 ![Dashboard 2025](image2.png)
 *Key metrics display including quantity x manpower, volume x manpower, average manpower, and workday statistics with trend analysis*
 
